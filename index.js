@@ -32,7 +32,7 @@ server.post('/plants', function(request, response){
     commonName: request.body.commonName,
     scientificName: request.body.scientificName,
     layerType: request.body.layerType,
-    use: request.body.use
+    use: request.body.use.split(',')
   };
 
   var result = db.get('plants')
@@ -47,7 +47,7 @@ server.put('/plants/:id', function(request, response){
     commonName: request.body.commonName,
     scientificName: request.body.scientificName,
     layerType: request.body.layerType,
-    use: request.body.use
+    use: request.body.use.split(',')
   };
 
   var updatedPlant = db.get('plants')

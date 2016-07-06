@@ -5,126 +5,203 @@
       "commonName": "Atemoya",
       "scientificName": "Annona x Atemoya",
       "layerType": "Canopy",
-      "use": "?"
+      "use": [
+        "Tree",
+        " leaves"
+      ]
     },
     {
       "id": "a690c0f2-ffeb-448b-ad46-6c178715fda6",
       "commonName": "Avocado",
       "scientificName": "Persea Americana",
       "layerType": "Canopy",
-      "use": "Fruit"
+      "use": [
+        "Fruit"
+      ]
     },
     {
       "id": "0ebe2fa5-8968-418f-a7a6-ce14b05a8837",
       "commonName": "Chestnut",
       "scientificName": "Castanea",
       "layerType": "Canopy",
-      "use": "Nuts, Wood"
+      "use": [
+        "Nuts",
+        " Wood"
+      ]
     },
     {
       "id": "89590202-d62a-48ca-9ac5-0a7fc3c4f7ed",
       "commonName": "Bunya Pine",
       "scientificName": "Araucaria Bidwillii",
       "layerType": "Canopy",
-      "use": "Nuts, Wood"
+      "use": [
+        "Nuts",
+        " Wood"
+      ]
     },
     {
       "id": "19596694-7d59-4a33-b385-6259c493b240",
       "commonName": "Black Walnut",
       "scientificName": "Juglans Nigra",
       "layerType": "Canopy",
-      "use": "Nuts, Wood"
+      "use": [
+        "Nuts",
+        " Wood"
+      ]
     },
     {
       "id": "61c15956-598e-4a15-8b37-c3ee9b71af83",
       "commonName": "Drumstick Tree",
       "scientificName": "Moringa Oleifera",
       "layerType": "Canopy",
-      "use": "Wood, Leaves"
+      "use": [
+        "Wood",
+        " Leaves"
+      ]
     },
     {
       "id": "a775b3c6-f6cb-4d86-b3d8-2acbf86b1a77",
       "commonName": "Pear",
       "scientificName": "Pyrus",
       "layerType": "Canopy",
-      "use": "Fruit, Wood"
+      "use": [
+        "Fruit",
+        " Wood"
+      ]
     },
     {
       "id": "0e771f37-0604-4df5-80a9-0454eca437f8",
       "commonName": "Peach",
       "scientificName": "Prunus Persica",
       "layerType": "Canopy",
-      "use": "Fruit, Wood"
+      "use": [
+        "Fruit",
+        " Wood"
+      ]
     },
     {
       "id": "24ba2ae1-f0f6-41cb-8834-e6dccf9be069",
       "commonName": "Plum",
       "scientificName": "Prunus Prunus",
       "layerType": "Canopy",
-      "use": "Fruit, Wood"
+      "use": [
+        "Fruit",
+        " Wood"
+      ]
     },
     {
       "id": "837c89d9-7ec0-45b8-a995-bb2f32392c6e",
       "commonName": "Cherry",
       "scientificName": "Prunus Avium",
       "layerType": "Canopy",
-      "use": "Fruit, Wood"
+      "use": [
+        "Fruit",
+        " Wood"
+      ]
     },
     {
       "id": "7d9a9128-d3f2-4628-b988-9cf6a8d42ec7",
       "commonName": "Honey Locust",
       "scientificName": "Gleditsia Triacanthos",
       "layerType": "Canopy",
-      "use": "Wood, Seed, Insect, N, Fodder"
+      "use": [
+        "Wood",
+        " Seed",
+        " Insect",
+        " N",
+        " Fodder"
+      ]
     },
     {
       "id": "a8192f13-5b34-409f-a6a9-d827b165e592",
       "commonName": "Black Locust",
       "scientificName": "Robinia Pseudoacacia",
       "layerType": "Canopy",
-      "use": "Wood, Seed, Insect, N, Fodder"
+      "use": [
+        "Wood",
+        " Seed",
+        " Insect",
+        " N",
+        " Fodder"
+      ]
     },
     {
       "id": "573c54c4-c75e-4cdc-991f-80926e7898e1",
       "commonName": "Mulberry",
       "scientificName": "Morus",
       "layerType": "Canopy",
-      "use": "Fruit, Leaves"
+      "use": [
+        "Fruit",
+        " Leaves"
+      ]
     },
     {
       "id": "22b253a1-0789-4cee-8004-cd24397d30b7",
       "commonName": "Citrus",
       "scientificName": "Citrus",
       "layerType": "Canopy",
-      "use": "Fruit"
+      "use": [
+        "Fruit"
+      ]
     },
     {
       "id": "38f10fb8-e01b-4803-a1ec-60e00424b937",
       "commonName": "Pecan",
       "scientificName": "Carya Illinoinensis",
       "layerType": "Canopy",
-      "use": "Nuts, Wood"
+      "use": [
+        "Nuts",
+        " Wood"
+      ]
     },
     {
       "id": "ec0d61ee-1040-4590-aa1e-51b5e4cfeed1",
       "commonName": "Tupelo",
       "scientificName": "Nyssa",
       "layerType": "Canopy",
-      "use": "Wood, Insect"
+      "use": [
+        "Wood",
+        " Insect"
+      ]
     },
     {
       "id": "5c404202-175b-4632-ba14-a89e6a1c917a",
       "commonName": "Palm",
       "scientificName": "Arecaceae",
       "layerType": "Canopy",
-      "use": "Wood, Fruit, Stalk"
+      "use": [
+        "Wood",
+        " Fruit",
+        " Stalk"
+      ]
     },
     {
       "id": "8075f53e-81e6-4f1e-b333-3075111f9b4c",
       "commonName": "Fig",
       "scientificName": "Ficus Carica",
       "layerType": "Canopy",
-      "use": "Fruit"
+      "use": [
+        "Fruit"
+      ]
+    },
+    {
+      "id": "c1e3d8be-1e1f-4918-bd91-6ba91d0ad060",
+      "commonName": "Olive",
+      "scientificName": "Olea Europaea",
+      "layerType": "Canopy",
+      "use": [
+        "Fruit",
+        " Leaves"
+      ]
+    },
+    {
+      "id": "ec88fb1f-5e58-40e8-894b-259cf6c33e3c",
+      "commonName": "Jujube",
+      "scientificName": "Ziziphus Jujuba",
+      "layerType": "Canopy",
+      "use": [
+        "Fruit"
+      ]
     }
   ]
 }
