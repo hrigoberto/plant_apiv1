@@ -1,3 +1,53 @@
 {
-  "plants": []
+  "plants": [
+    {
+      "id": "d6d17881-8c47-4c5f-bf86-fdcf1fc558d9",
+      "commonName": "Atemoya",
+      "scientificName": "Annona x Atemoya",
+      "layerType": "Canopy",
+      "use": "?"
+    },
+    {
+      "id": "a690c0f2-ffeb-448b-ad46-6c178715fda6",
+      "commonName": "Avocado",
+      "scientificName": "Persea Americana",
+      "layerType": "Canopy",
+      "use": "Fruit"
+    },
+    {
+      "id": "0ebe2fa5-8968-418f-a7a6-ce14b05a8837",
+      "commonName": "Chestnut",
+      "scientificName": "Castanea",
+      "layerType": "Canopy",
+      "use": "Nuts, Wood"
+    },
+    {
+      "id": "89590202-d62a-48ca-9ac5-0a7fc3c4f7ed",
+      "commonName": "Bunya Pine",
+      "scientificName": "Araucaria Bidwillii",
+      "layerType": "Canopy",
+      "use": "Nuts, Wood"
+    },
+    {
+      "id": "19596694-7d59-4a33-b385-6259c493b240",
+      "commonName": "Black Walnut",
+      "scientificName": "Juglans Nigra",
+      "layerType": "Canopy",
+      "use": "Nuts, Wood"
+    },
+    {
+      "id": "61c15956-598e-4a15-8b37-c3ee9b71af83",
+      "commonName": "Drumstick Tree",
+      "scientificName": "Moringa Oleifera",
+      "layerType": "Canopy",
+      "use": "Wood, Leaves"
+    },
+    {
+      "id": "a775b3c6-f6cb-4d86-b3d8-2acbf86b1a77",
+      "commonName": "Pear",
+      "scientificName": "Pyrus",
+      "layerType": "Canopy",
+      "use": "Fruit, Wood"
+    }
+  ]
 }

@@ -31,11 +31,8 @@ server.post('/plants', function(request, response){
     id: uuid.v4(),
     commonName: request.body.commonName,
     scientificName: request.body.scientificName,
-    typeOfPlant: request.body.typeOfPLant,
-    edible: false,
-    edibleParts: request.body.edibleParts,
-    medicinal: false,
-    medicinalParts: request.body.medicinalParts
+    layerType: request.body.layerType,
+    use: request.body.use
   };
 
   var result = db.get('plants')
@@ -49,11 +46,8 @@ server.put('/plants/:id', function(request, response){
   var updatedPlantInfo = {
     commonName: request.body.commonName,
     scientificName: request.body.scientificName,
-    typeOfPlant: request.body.typeOfPLant,
-    edible: request.body.edible,
-    edibleParts: request.body.edibleParts,
-    medicinal: request.body.medicinal,
-    medicinalParts: request.body.medicinalParts
+    layerType: request.body.layerType,
+    use: request.body.use
   };
 
   var updatedPlant = db.get('plants')
