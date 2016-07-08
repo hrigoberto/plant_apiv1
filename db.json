@@ -195,22 +195,13 @@
       ]
     },
     {
-      "id": "ec88fb1f-5e58-40e8-894b-259cf6c33e3c",
-      "commonName": "Jujube",
-      "scientificName": "Ziziphus Jujuba",
+      "id": "20e9d92f-7ef2-4149-bd73-f48eae55a62f",
+      "commonName": "Chestnut",
+      "scientificName": "Castanea",
       "layerType": "Canopy",
       "use": [
-        "Fruit"
-      ]
-    },
-    {
-      "id": "ca91ef99-ec02-4e3e-bddc-b58b16f7fd2d",
-      "commonName": "Atemoya",
-      "scientificName": "Annona x Atemoya",
-      "layerType": "Canopy",
-      "use": [
-        "Tree",
-        " leaves"
+        "Nuts",
+        " Wood"
       ]
     }
   ]

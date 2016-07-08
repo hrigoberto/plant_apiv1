@@ -1,11 +1,15 @@
+// a list of all the modules we are using within this file, and server is using express itself to create a server.
 var express = require('express');
 var server = (express());
 var bodyParser = require('body-parser');
 var lowdb = require('lowdb');
 var uuid = require('uuid');
 
+// Plant is calling up our very own module called Plant.js which is in models
 var Plant = require('./models/Plant.js')
+// port allows our server to deploy through the web (heroku) OR || localhost 8080
 var port = process.env.PORT || 8080
+// tells this file that we are using the lowdb module to access the db.json file
 var db = lowdb('db.json');
 
 db.defaults({plants: []})
@@ -25,10 +29,13 @@ server.get('/plants/:id', function(request, response){
                 .find({id: request.params.id})
                 .value()
   response.send(plant);
-})
+});
 
 server.post('/plants', function(request, response){
-  var plant = new Plant(request.body.commonName, request.body.scientificName, request.body.layerType, request.body.use);
+  var plant = new Plant(request.body.commonName,
+                        request.body.scientificName,
+                        request.body.layerType,
+                        request.body.use);
   var result = db.get('plants')
                  .push(plant)
                  .last()
@@ -37,16 +44,16 @@ server.post('/plants', function(request, response){
 });
 
 server.put('/plants/:id', function(request, response){
-  var updatedPlantInfo = {
-    commonName: request.body.commonName,
-    scientificName: request.body.scientificName,
-    layerType: request.body.layerType,
-    use: request.body.use.split(',')
-  };
-
+  var plant = new Plant(request.body.commonName,
+                        request.body.scientificName,
+                        request.body.layerType,
+                        request.body.use,
+                        request.params.id);
+  plant.updateUse(request.body.use);
+  plant.updateLayerType(request.body.layerType);
   var updatedPlant = db.get('plants')
                        .find({id: request.params.id})
-                       .assign(updatedPlantInfo)
+                       .assign(plant)
                        .value();
   response.send(updatedPlant);
 })
