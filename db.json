@@ -202,6 +202,16 @@
       "use": [
         "Fruit"
       ]
+    },
+    {
+      "id": "ca91ef99-ec02-4e3e-bddc-b58b16f7fd2d",
+      "commonName": "Atemoya",
+      "scientificName": "Annona x Atemoya",
+      "layerType": "Canopy",
+      "use": [
+        "Tree",
+        " leaves"
+      ]
     }
   ]
 }

@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var lowdb = require('lowdb');
 var uuid = require('uuid');
 
+var Plant = require('./models/Plant.js')
 var port = process.env.PORT || 8080
 var db = lowdb('db.json');
 
@@ -27,14 +28,7 @@ server.get('/plants/:id', function(request, response){
 })
 
 server.post('/plants', function(request, response){
-  var plant = {
-    id: uuid.v4(),
-    commonName: request.body.commonName,
-    scientificName: request.body.scientificName,
-    layerType: request.body.layerType,
-    use: request.body.use.split(',')
-  };
-
+  var plant = new Plant(request.body.commonName, request.body.scientificName, request.body.layerType, request.body.use);
   var result = db.get('plants')
                  .push(plant)
                  .last()
