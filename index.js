@@ -4,6 +4,7 @@ var server = (express());
 var bodyParser = require('body-parser');
 var lowdb = require('lowdb');
 var uuid = require('uuid');
+var cors = require('cors');
 
 // Plant is calling up our very own module called Plant.js which is in models
 var Plant = require('./models/Plant.js')
@@ -17,7 +18,7 @@ db.defaults({plants: []})
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
-
+server.use(cors());
 server.get('/plants', function(request, response){
   var plants = db.get('plants')
                 .value();
